@@ -37,5 +37,7 @@ let lightbicycle= bicycle[0]
 
 
 for(let i=1; i<bicycle.length; i++){
-   
+   if(bicycle[i].weight<lightbicycle.weight){
+    lightbicycle=bicycle[i]
+   }
 }
