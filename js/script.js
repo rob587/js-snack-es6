@@ -11,23 +11,23 @@ const bicycle = [
         year:2006
     },
     {
-        name: 'Ugo',
-        weight: 30,
+        name: 'Luca',
+        weight: 20,
         year:2006
     },
     {
-        name: 'Ugo',
-        weight: 30,
+        name: 'Agostino',
+        weight: 10,
         year:2006
     },
     {
-        name: 'Ugo',
-        weight: 30,
+        name: 'Fabio',
+        weight: 40,
         year:2006
     },
     {
-        name: 'Ugo',
-        weight: 30,
+        name: 'Alessandro',
+        weight: 25,
         year:2006
     }
 ]
