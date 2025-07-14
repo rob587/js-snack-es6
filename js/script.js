@@ -97,5 +97,16 @@ for (let i=0; i<squads.length; i++){
 
 console.log(squads)
 
+const newArray = [];
 
+for (let j=0; j<squads.length; j++){
+    const squad = squads[j]
 
+    newArray.push({
+        nome:squad.nome,
+        fouls:squad.fouls
+       
+    })
+}
+
+console.log(newArray)
