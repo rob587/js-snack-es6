@@ -31,3 +31,11 @@ const bicycle = [
         year:2006
     }
 ]
+
+
+let lightbicycle= bicycle[0]
+
+
+for(let i=1; i<bicycle.length; i++){
+   
+}
