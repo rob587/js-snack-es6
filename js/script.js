@@ -81,3 +81,21 @@ const squads = [
         fouls: 0
     }
 ]
+
+let min = 1
+let max = 10
+
+const randomNumber = (min, max) =>{
+    const number = Math.floor(Math.random() * 10) + 1;
+    return number
+}
+
+for (let i=0; i<squads.length; i++){
+    squads[i].fouls= Math.floor(Math.random() * 10) + 1;
+    squads[i].points= Math.floor(Math.random() * 10) + 1;
+}
+
+console.log(squads)
+
+
+
