@@ -41,3 +41,5 @@ for(let i=1; i<bicycle.length; i++){
     lightbicycle=bicycle[i]
    }
 }
+
+console.log(" la bicicletta col peso minore è:", lightbicycle.name, "con", lightbicycle.weight, "kg" )
